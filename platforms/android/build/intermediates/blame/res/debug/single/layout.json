@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_done_button.xml",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\layout\\actionbar_done_button.xml"
+    },
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_discard_button.xml",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\layout\\actionbar_discard_button.xml"
+    },
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\multiselectorgrid.xml",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\layout\\multiselectorgrid.xml"
+    },
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\layout\\actionbar_custom_view_done_discard.xml",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\layout\\actionbar_custom_view_done_discard.xml"
+    }
+]

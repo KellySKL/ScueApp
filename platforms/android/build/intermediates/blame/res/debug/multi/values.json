@@ -1,0 +1,199 @@
+[
+    {
+        "outputFile": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 156,
+                        "endColumn": 63,
+                        "endOffset": 215
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 41,
+                    "endOffset": 156
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 161,
+                    "endColumn": 42,
+                    "endOffset": 199
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 42,
+                        "endOffset": 522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 204,
+                    "endColumn": 35,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 35,
+                        "endOffset": 558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 117,
+                    "endOffset": 353
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 117,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 358,
+                    "endColumn": 77,
+                    "endOffset": 431
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 77,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 436,
+                    "endColumn": 58,
+                    "endOffset": 490
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 58,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 495,
+                    "endColumn": 60,
+                    "endOffset": 551
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endColumn": 60,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 556,
+                    "endColumn": 90,
+                    "endOffset": 642
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 90,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 647,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 716
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\themes.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 3,
+                        "endColumn": 12,
+                        "endOffset": 124
+                    }
+                }
+            }
+        ]
+    }
+]

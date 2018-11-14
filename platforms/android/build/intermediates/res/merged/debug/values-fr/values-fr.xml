@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="discard">Annuler</string>
+    <string name="done">OK</string>
+    <string name="error_database">"Il y eu une erreur avec les images. Veuillez nous signaler le problème."</string>
+    <string name="free_version_label">Version gratuite - Images restantes:%d"</string>
+    <string name="multi_app_name">MultiImageChooser</string>
+    <string name="requesting_thumbnails">Récupération des vignettes, soyez patient</string>
+</resources>
