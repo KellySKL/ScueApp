@@ -1,0 +1,46 @@
+<ion-view title="报备-招待费用">
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-content class="padding">
+    <div class="list" style="width:98%;margin:1%;">
+      <div class="item item-divider">
+        客户拜访单
+      </div>
+      <div class="item item-input">
+        客户名称：<input type="text" ng-model="$parent.searchName" readonly="readonly">
+        <i class="icon ion-plus" style="float: right;font-size: 20px;margin-left: 5px;" ng-click="choseBill()"></i>
+      </div>
+      <div class="item item-input">
+        对方姓名： <input type="text" ng-model="$parent.hisName"  readonly="readonly">
+      </div>
+      <div class="item item-input">
+        对方职位： <input type="text" ng-model="$parent.hisPosition" readonly="readonly">
+      </div>
+      <div class="item item-input">
+        对方手机： <input type="text" ng-model="$parent.hisPhone" readonly="readonly">
+      </div>
+      <div class="item item-input">
+        拜访内容： <textarea style="height: 150px" ng-model="$parent.content" readonly="readonly"></textarea>
+      </div>
+
+      <div class="item item-divider">
+        申请招待费用
+      </div>
+      <div class="item item-input" style="color: #f80003">
+        餐费(元)： <input type="text" ng-model="$parent.eating" >
+      </div>
+      <div class="item item-input" style="color: #f80003">
+        其他(元)： <input type="text" ng-model="$parent.other">
+      </div>
+      <div class="item item-input" style="color: #f80003">
+        预计招待人员： <textarea style="height: 50px" ng-model="$parent.person"></textarea>
+      </div>
+    </div>
+    <div class="padding">
+      <button class="button button-block button-positive" id ="submit" ng-click="submit()">提交</button>
+    </div>
+  </ion-content>
+</ion-view>
+

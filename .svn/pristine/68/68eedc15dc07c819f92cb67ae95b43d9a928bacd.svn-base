@@ -1,0 +1,30 @@
+<ion-view view-title="{{item.code}}">
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content class="padding">
+    <p>
+      {{item.date}}
+    </p>
+    <p>
+      {{item.visittype}}
+    </p>
+    <p>
+      {{item.client}}
+    </p>
+    <p>
+      {{item.hisname}}
+    </p>
+    <p>
+      {{item.hisphone}}
+    </p>
+    <p>
+      {{item.content}}
+    </p>
+    <p>
+      {{item.notice}}
+    </p>
+  </ion-content>
+</ion-view>

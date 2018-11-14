@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "E:\\AppSQ\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_remove.png",
+        "source": "E:\\AppSQ\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_next_item.png",
+        "source": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_remove.png",
+        "source": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_next_item.png",
+        "source": "E:\\AppSQ\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\ic_action_next_item.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_previous_item.png",
+        "source": "E:\\AppSQ\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon.png",
+        "source": "E:\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon.png",
+        "source": "E:\\AppSQ\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\icon.png",
+        "source": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_action_previous_item.png",
+        "source": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\res\\drawable-xxhdpi\\ic_action_previous_item.png"
+    }
+]

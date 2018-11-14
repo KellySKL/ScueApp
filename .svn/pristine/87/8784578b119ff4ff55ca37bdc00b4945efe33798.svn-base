@@ -1,0 +1,18 @@
+<ion-view view-title="事务">
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-content>
+    <div>
+      <div style="font-size:16px;">
+        上班卡 8:00  <button class="button button-stable">button-stable</button>
+        <!--<a class="button"  style="border: 1px solid #ccc;border-radius: 8px;">打卡</a>-->
+      </div>
+      <div style="font-size:16px;">
+        下班卡 17:00 <button class="button button-positive">button-positive</button>
+        <!--<a class="button"  style="border: 1px solid #ccc;border-radius: 8px;">打卡</a>-->
+      </div>
+    </div>
+  </ion-content>
+</ion-view>

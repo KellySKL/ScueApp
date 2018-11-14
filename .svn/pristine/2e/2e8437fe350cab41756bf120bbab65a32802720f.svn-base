@@ -1,0 +1,30 @@
+/**
+ * Created by WG003 on 2018/8/22.
+ */
+angular.module('starter.ywMsg', [])
+
+  .factory('YWMesseges', function($http,$rootScope) {
+    var dataA=[];
+    var p = {
+      userName: $rootScope.userName
+    };
+    return {
+      state0: function() {
+        $http.post(userService(0).address+"MessageService.asmx/YWBillGet",p).success(function (response, status, headers, config) {
+          dataA = response.d;
+          return  dataA;
+        }).error(function (response, status, headers, config) {
+          return  null;
+        });
+      },
+
+      get: function(code,data) {
+        for (var i = 0; i < data.length; i++) {
+          if (data[i].code === parseInt(code)) {
+            return data[i];
+          }
+        }
+        return null;
+      }
+    };
+  });

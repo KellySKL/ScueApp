@@ -1,0 +1,32 @@
+<ion-view view-title="{{item.CODE}}">
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+  <ion-content class="padding">
+    <div class="item item-input">
+      客户：<input type="text" ng-model="item.CLIENT">
+    </div>
+    <div class="item item-input">
+      联系人：<input type="text" ng-model="item.CONTACT">
+    </div>
+    <div class="item item-input">
+      联系电话：<input type="text" ng-model="item.PHONE">
+    </div>
+    <div class="item item-input">
+      维修类型： <input id="txt1" type="text" ng-model="item.BILLTYPE" >
+    </div>
+    <div class="item item-input">
+      机床编号： <input type="text"  id="txt2" ng-model="item.ZF1">
+    </div>
+    <div class="item item-input">
+      内容描述： <input type="text" id="txt3" style="height: 50px" ng-model="item.NOTEPRE">
+    </div>
+    <div class="item item-input">
+      分析描述： <input type="text" id="txt3" style="height: 50px" ng-model="item.ZF3">
+    </div>
+    <div class="padding" ng-hide="myBill">
+      <button class="button button-block button-positive" ng-click="writeWX(item)">填写拜访单</button>
+    </div>
+  </ion-content>
+</ion-view>

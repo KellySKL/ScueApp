@@ -1,0 +1,35 @@
+<ion-view view-title="{{bill.code}}">
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content class="padding">
+    <img ng-src="{{bill.face}}" style="width: 64px; height: 64px">
+    <p ng-model="$parent.bill.date">
+    </p>
+    <p id="date">
+    </p>
+    <!--<p>-->
+      <!--{{$parent.item.date}}-->
+    <!--</p>-->
+    <!--<p>-->
+      <!--{{$parent.item.visittype}}-->
+    <!--</p>-->
+    <!--<p>-->
+      <!--{{$parent.item.client}}-->
+    <!--</p>-->
+    <!--<p>-->
+      <!--{{$parent.item.hisname}}-->
+    <!--</p>-->
+    <!--<p>-->
+      <!--{{$parent.item.hisphone}}-->
+    <!--</p>-->
+    <!--<p>-->
+      <!--{{$parent.item.content}}-->
+    <!--</p>-->
+    <!--<p>-->
+      <!--{{$parent.item.notice}}-->
+    <!--</p>-->
+  </ion-content>
+</ion-view>

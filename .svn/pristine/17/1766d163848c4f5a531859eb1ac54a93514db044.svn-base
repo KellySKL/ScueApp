@@ -1,0 +1,46 @@
+<style type="text/css">
+  .f{
+    background-color: #eae9e9;
+    height:30px;
+    font-size:12px;
+    border-radius:5px;
+    text-align: center;
+    width: 100%;
+  }
+</style>
+<ion-view view-title="登录页面">
+  <div id="Layer1" style="position:absolute; width:100%; height:100%; z-index:-1">
+  </div>
+  <ion-content class="padding">
+    <div id="tiptest">
+      <div>
+      <input type="button" value="watch" ng-click="getPoints()"/>
+        <div id="eeeee">
+          <!--<form>-->
+            <!--First Name:<input type="text" name="name" class="f">-->
+            <!--&lt;!&ndash;First Name:<input type="text" name="name" style="height: 30px;width: 60%;	border:1px solid;border-color:#58ACFA;"><br>&ndash;&gt;-->
+          <!--</form>-->
+        </div>
+      </div>
+      <div id="r_title"><b>显示结果:-----</b></div>
+        <div id="ts_css">
+          <form>
+            <!--First Name:<input type="text" name="name" style="height: 30px;width: 60%;border:2px solid;border-color:#317ff2;border-radius: 5px;">-->
+            <!--First Name:<input type="text" name="name" style="height: 30px;width: 60%;	border:1px solid;border-color:#58ACFA;"><br>-->
+          </form>
+        </div>
+
+  </div>
+
+    <div style="width:100%;margin:0px auto;position:absolute;top:200px; z-index:2">
+      <ion-list>
+        <ion-item class="item item-thumbnail-left" ng-repeat="item in houseList" href="#/housedetail/{{item.id}}" rel="external nofollow" style="padding--bottom:2px">
+          <img ng-src="{{item.img}}">
+          <h2>{{item.title}}</h2>
+          <dd class="assertive cus-price">{{item.price}}万元</dd>
+          <dd class="u-f-h4">{{item.describe}}</dd>
+        </ion-item>
+      </ion-list>
+    </div>
+  </ion-content>
+</ion-view>

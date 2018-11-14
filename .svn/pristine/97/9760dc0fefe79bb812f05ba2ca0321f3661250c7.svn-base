@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\AppSQ\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "E:\\AppSQ\\AppSQ\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "E:\\AppSQ\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "E:\\AppSQ\\AppSQ\\platforms\\android\\res\\xml\\file_paths.xml"
+    }
+]

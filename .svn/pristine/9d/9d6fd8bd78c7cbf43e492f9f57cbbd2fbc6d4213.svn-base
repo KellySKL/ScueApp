@@ -1,0 +1,66 @@
+/**
+ * Created by WG003 on 2018/9/28.
+ */
+angular.module('starter.Common', [])
+
+  .factory('common', function($rootScope,$http,$q) {
+    return {
+      getServerVersion: function (curVersion) {
+        var deferred = $q.defer(),
+          promise;
+        if (curVersion) {
+          promise = $http.get(CONFIG.url.version, {params: {version: curVersion}});
+        } else {
+          promise = $http.get(CONFIG.url.version);
+        }
+        promise.then(function (response) {
+          deferred.resolve(response.data.data.versions);
+        }).catch(function (error) {
+          deferred.reject(error);
+        });
+        return deferred.promise;
+      },
+
+      getLocalVersion: function () {
+        var deferred = $q.defer();
+        cordova.getAppVersion.getVersionNumber()
+          .then(function (localVersion) {
+            deferred.resolve(localVersion);
+          }).catch(function (error) {
+          deferred.reject(error);
+        });
+        return deferred.promise;
+      },
+
+      checkUpdate: function () {
+        var self = this,
+          localVersion;
+
+        this.getLocalVersion().then(function (response) {
+          localVersion = response;
+          return self.getServerVersion(response);
+        }).then(function (serverVersions) {
+          var latestVersion = _.isArray(serverVersions) ? _.first(serverVersions) : serverVersions,
+            laterThanServer = commonService.laterThan(localVersion, latestVersion.number),
+            isForceUpdate = _.some(_.initial(serverVersions), function (item) {
+              return item.flag === 1;
+            });
+
+          commonService.setItem("latestVersion", latestVersion);
+          return laterThanServer && isForceUpdate;
+        }).then(function (isForce) {
+          isForce && commonService.confirm(i18n.need_update_label, i18n.force_update_tip).then(function (res) {
+            if (res) {
+              checkUpdateEnv(isForce);
+            } else {
+              ionic.Platform.exitApp();
+            }
+          });
+        }).catch(function (reason) {
+          console.log("version compare filed : " + JSON.stringify(reason));
+        });
+      }
+    }
+  })
+
+// https://blog.csdn.net/jiaen188/article/details/76560066?utm_source=copy

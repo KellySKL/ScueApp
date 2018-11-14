@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi-v4\\screen.png",
+        "source": "E:\\AppSQ\\platforms\\android\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi-v4\\screen.png",
+        "source": "E:\\AppSQ\\AppSQ\\platforms\\android\\res\\drawable-land-hdpi\\screen.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-land-hdpi-v4\\screen.png",
+        "source": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\res\\drawable-land-hdpi\\screen.png"
+    }
+]

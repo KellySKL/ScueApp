@@ -1,0 +1,68 @@
+<ion-header-bar class="bar-positive">
+消息
+</ion-header-bar>
+<ion-view view-title="消息接收">
+  <ion-content>
+    <div style="display:flex;width:100%;">
+      <div style="flex:1;text-align: center; font-size: 18px;height: 40px" class="tab_default" ng-repeat="d in tabNames" ng-click="activeSlide($index)" ng-class="slectIndex==$index ? 'tab_select' : '' ">
+        {{d}}
+        <div class="arrow-top" style="left:{{15+$index*33}}%" ng-show="slectIndex==$index"></div>
+      </div>
+    </div>
+
+    <ion-slide-box style="height: 100%" on-slide-changed="slideChanged(index)" active-slide="slideIndex" does-continue="false" show-pager="false">
+      <ion-slide>
+        <ion-scroll zooming="true" direction="y" style="width: 100%; height: 500px">
+          <div style="width: 100%; height: 5000px; background: url('http://www.runoob.com/try/demo_source/Europe_geological_map-en.jpg') repeat"></div>
+        </ion-scroll>
+      </ion-slide>
+      <ion-slide>
+        <ion-scroll direction="y" scroll-height>
+          <div id="div1">
+            <ion-list>
+              <ion-item ng-repeat="item in data" type="item-text-wrap" style="margin:8px;border:1px solid #317ff2;border-radius: 10px;">
+                <!--<div style="border:1px solid #317ff2;border-radius: 10px;">-->
+                <div style="height: 25px;width: 100%;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;margin: 0px;">
+                  <div style="float: left;height:100%;width:auto;text-align:center">
+                    {{item.CLIENT}}
+                  </div>
+                  <div style="float: right;height:100%;width:auto;text-align:center">
+                    <p style="color: #8e979a">{{item.BILLTYPE}}</p>
+                  </div>
+                </div>
+                <div style="height: 25px;width: 100%;border-radius: 10px;margin-top: 5px; font-size: 14px;color:#8e979a;word-wrap: break-word;">
+                  机床码：{{item.ZF1}}
+                </div>
+                <ion-option-button class="button-assertive" ng-click="accept(item)">
+                  接收
+                </ion-option-button>
+              </ion-item>
+            </ion-list>
+          </div>
+        </ion-scroll>
+      </ion-slide>
+      <ion-slide>
+        <ion-scroll direction="y" scroll-height>
+        <div class="box yellow"><h1>YELLOW</h1></div>
+          </ion-scroll>
+      </ion-slide>
+      <ion-slide>
+        <ion-scroll direction="y" scroll-height>
+        <div class="box pink"><h1>PINK</h1></div>
+        </ion-scroll>
+      </ion-slide>
+      <!--<ion-slide ng-repeat="p in pages">-->
+        <!--<div ng-include="p">-->
+          <!--dwedwdwedxwxwxdsddsdsdddwxx-->
+        <!--</div>-->
+      <!--</ion-slide>-->
+    </ion-slide-box>
+  </ion-content>
+  <!--<ion-content class="padding">-->
+    <!--&lt;!&ndash;style="margin-top: 45px"&ndash;&gt;-->
+    <!---->
+    <!--&lt;!&ndash;<div id="div2">&ndash;&gt;-->
+      <!--&lt;!&ndash;<p> 第二个DIV！</p>&ndash;&gt;-->
+    <!--&lt;!&ndash;</div>&ndash;&gt;-->
+  <!--</ion-content>-->
+</ion-view>

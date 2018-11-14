@@ -1,0 +1,47 @@
+/**
+ * Created by WG003 on 2018/8/22.
+ */
+(function(root, factory) {
+  if (typeof define === 'function' && define.amd) {
+    // AMD. Register as an anonymous module.
+    define([], factory);
+  } else if (typeof module === 'object' && module.exports) {
+    // Node. Does not work with strict CommonJS, but
+    // only CommonJS-like environments that support module.exports,
+    // like Node.
+    module.exports = factory();
+  } else {
+    // Browser globals (root is window)
+    root.ywmsg = factory();
+  }
+}(this, function($rootScope,$http,userService) {
+
+  var dataA=[];
+  var p = {
+    userName: $rootScope.userName
+  };
+
+  var  state0=  function state0() {
+      $http.post(userService(0).address+"MessageService.asmx/YWBillGet",p).success(function (response, status, headers, config) {
+        dataA = response.d;
+        return  dataA;
+      }).error(function (response, status, headers, config) {
+        return  null;
+      });
+    };
+
+  var getI = function getI(code,data) {
+      for (var i = 0; i < data.length; i++) {
+        if (data[i].code === parseInt(code)) {
+          return data[i];
+        }
+      }
+      return null;
+    };
+
+  return {
+    state0: state0,
+    getI: getI
+  }
+
+}));

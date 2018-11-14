@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\WG002\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.4.4\c5cd3347c0a86d0dcfbf3da593d8431d5a789d54\jackson-core-2.4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="c5cd3347c0a86d0dcfbf3da593d8431d5a789d54">
+        <dex dex="E:\skkkkkk\platforms\android\build\intermediates\pre-dexed\debug\jackson-core-2.4.4_9aea94ed32d049ebbcdf5d1562fc313fa59e9461.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WG002\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.4.0\d6a66c7a5f01cf500377bd669507a08cfeba882a\jackson-annotations-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="d6a66c7a5f01cf500377bd669507a08cfeba882a">
+        <dex dex="E:\skkkkkk\platforms\android\build\intermediates\pre-dexed\debug\jackson-annotations-2.4.0_52c120260e0d4b9d906f7c43d183ab2d9c32ae19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\skkkkkk\platforms\android\build\intermediates\exploded-aar\me.leolin\ShortcutBadger\1.1.21\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="34cc5a7a8157e8e840d601b5236a7f495ab0e838">
+        <dex dex="E:\skkkkkk\platforms\android\build\intermediates\pre-dexed\debug\me.leolin-ShortcutBadger-1.1.21_ef83a920c2ac1948b94d766d6a6a941f9106e040.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\skkkkkk\platforms\android\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="efec67655f6db90757faa37201efcee2a9ec3507">
+        <dex dex="E:\skkkkkk\platforms\android\build\intermediates\pre-dexed\debug\android-support-v4_33d5a4d73c3e3cddf2dfe3e5e1775b09f9b6e93d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WG002\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="E:\skkkkkk\platforms\android\build\intermediates\pre-dexed\debug\eventbus-3.0.0_7101e24db503df744b3521a9c8df0f005a9db508.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\WG002\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.4.4\e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee\jackson-databind-2.4.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee">
+        <dex dex="E:\skkkkkk\platforms\android\build\intermediates\pre-dexed\debug\jackson-databind-2.4.4_5577d9ed7acc0d94f7c722885ec6bc7d9f335e0d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\skkkkkk\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="28.0.0"
+        sha1="873daaba9b25e7f07376989b900fc46e99a9271c">
+        <dex dex="E:\skkkkkk\platforms\android\build\intermediates\pre-dexed\debug\CordovaLib-unspecified-debug_dd4dc2a8d91e94598b0105e4f9babfc3ec3d1920.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,38 @@
+<style type="text/css">
+  .tip{
+   font-size: 16px;
+  }
+</style>
+<ion-view view-title="{{item.code}}">
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button>
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content class="padding">
+    <p class="tip">
+      拜访时间： {{item.date}}
+    </p>
+    <p class="tip">
+      拜访方式： {{item.visittype}}
+    </p>
+    <p class="tip">
+      拜访客户：  {{item.client}}
+    </p>
+    <p class="tip">
+      联系人：{{item.hisname}}
+    </p>
+    <p class="tip">
+      联系方式：{{item.hisphone}}
+    </p>
+    <p class="tip">
+      上次回访内容：{{item.content}}
+    </p>
+    <p class="tip">
+      本次注意事项：{{item.notice}}
+    </p>
+    <div class="padding">
+      <button class="button button-block button-positive" ng-click="accpect()">接受</button>
+    </div>
+  </ion-content>
+</ion-view>

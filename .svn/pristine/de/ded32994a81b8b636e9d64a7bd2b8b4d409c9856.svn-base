@@ -1,0 +1,33 @@
+/**
+ * Created by WG003 on 2018/9/22.
+ */
+
+angular.module('starter.NearBills', [])
+  .factory('nearBills', function($http,$rootScope,$q,userService) {
+    var param = {};
+    //页码
+    param.curPage = 0;
+    param.hasmore = false;
+    param.pageSize=10;
+
+    return {
+      getList:function () {
+        var q=$q.defer();
+        var p = {
+          id: $rootScope.userinfo,
+          lng: $rootScope.lng,
+          lat: $rootScope.lat,
+          userName: $rootScope.userName,
+          curPage:param.curPage,
+          pageSize:param.pageSize,
+        };
+        $http.post(userService(0).address+"MessageService.asmx/NeighborBill",p).success(function (response, status, headers, config) {
+          q.resolve(response);
+        }).error(function (response, status, headers, config) {
+          q.reject(response);
+        });
+        return q.promise;
+      },
+      param:param
+    };
+  });

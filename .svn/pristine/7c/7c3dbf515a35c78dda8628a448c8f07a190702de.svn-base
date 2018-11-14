@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>侧拉菜单的使用</title>
+  <link href="lib/css/ionic.css" rel="stylesheet" />
+  <script src="lib/js/ionic.bundle.js"></script>
+  <script type="text/javascript">
+    angular.module("ionicApp", ["ionic"]).controller("democ", function($scope, $ionicSideMenuDelegate) {
+      $scope.toggleLeftSideMenu = function() {
+        $ionicSideMenuDelegate.toggleLeft();
+      };
+    })
+  </script>
+</head>
+
+<body ng-app="ionicApp" ng-controller="democ">
+<ion-side-menus>
+  <ion-side-menu side="left">
+    左侧菜单!
+  </ion-side-menu>
+  <ion-side-menu-content>
+    内容!
+    <button ng-click="toggleLeftSideMenu()">
+      切换左侧侧栏菜单
+    </button>
+  </ion-side-menu-content>
+</ion-side-menus>
+
+
+</body>
+
+</html>

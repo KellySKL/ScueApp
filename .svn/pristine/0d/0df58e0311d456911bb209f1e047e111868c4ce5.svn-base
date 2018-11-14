@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\WG002\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.4.0\d6a66c7a5f01cf500377bd669507a08cfeba882a\jackson-annotations-2.4.0.jar"
+        jumboMode="false"
+        revision="28.0.0"
+        sha1="d6a66c7a5f01cf500377bd669507a08cfeba882a">
+        <dex dex="E:\AppSQ\AppSQ\platforms\android\build\intermediates\pre-dexed\debug\jackson-annotations-2.4.0_52c120260e0d4b9d906f7c43d183ab2d9c32ae19.jar" />
+    </item>
+    <item
+        jar="C:\Users\WG002\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.4.4\c5cd3347c0a86d0dcfbf3da593d8431d5a789d54\jackson-core-2.4.4.jar"
+        jumboMode="false"
+        revision="28.0.0"
+        sha1="c5cd3347c0a86d0dcfbf3da593d8431d5a789d54">
+        <dex dex="E:\AppSQ\AppSQ\platforms\android\build\intermediates\pre-dexed\debug\jackson-core-2.4.4_9aea94ed32d049ebbcdf5d1562fc313fa59e9461.jar" />
+    </item>
+    <item
+        jar="C:\Users\WG002\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.4.4\e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee\jackson-databind-2.4.4.jar"
+        jumboMode="false"
+        revision="28.0.0"
+        sha1="e2ff13c3de2f5a2ab2449a3dace2b0d1c37bd8ee">
+        <dex dex="E:\AppSQ\AppSQ\platforms\android\build\intermediates\pre-dexed\debug\jackson-databind-2.4.4_5577d9ed7acc0d94f7c722885ec6bc7d9f335e0d.jar" />
+    </item>
+    <item
+        jar="C:\Users\WG002\.gradle\caches\modules-2\files-2.1\org.greenrobot\eventbus\3.0.0\ddd99896e9569eaababbe81b35d80e1b91c4ad85\eventbus-3.0.0.jar"
+        jumboMode="false"
+        revision="28.0.0"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="E:\AppSQ\AppSQ\platforms\android\build\intermediates\pre-dexed\debug\eventbus-3.0.0_7101e24db503df744b3521a9c8df0f005a9db508.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,18 @@
+<ion-header-bar class="bar-positive" align-title="center">
+  <i class="button" ng-click="goBack()">
+    <span class="icon ion-ios-arrow-left"> Back </span>
+  </i>
+  <h1 class="title">我的签到</h1>
+</ion-header-bar>
+<ion-view>
+  <ion-content class="padding">
+    <div class="list">
+      <div class="item item-input">
+        <!--style="background-color:cadetblue"-->
+        下次拜访时间：<div ng-bind="datetime | date:'yyyy-MM-dd'" ng-click="openDatePicker()" style="width: 100%"></div>
+        <!--下次拜访时间： <input type="text" ng-model="$parent.next_visitTime">-->
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+

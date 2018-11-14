@@ -1,0 +1,396 @@
+[
+    {
+        "outputFile": "E:\\skkkkkk\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 154,
+                        "endColumn": 63,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 39,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 39,
+                        "endOffset": 90
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 42,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 42,
+                        "endOffset": 522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 35,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 35,
+                        "endOffset": 558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 238,
+                    "endColumn": 117,
+                    "endOffset": 351
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 117,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 356,
+                    "endColumn": 77,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 77,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 58,
+                    "endOffset": 488
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 58,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 493,
+                    "endColumn": 60,
+                    "endOffset": 549
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endColumn": 60,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 554,
+                    "endColumn": 90,
+                    "endOffset": 640
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 90,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 645,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 714
+                },
+                "from": {
+                    "file": "E:\\skkkkkk\\platforms\\android\\res\\values\\themes.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 3,
+                        "endColumn": 12,
+                        "endOffset": 124
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 63,
+                    "endOffset": 114
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 154,
+                        "endColumn": 63,
+                        "endOffset": 213
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 119,
+                    "endColumn": 39,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 39,
+                        "endOffset": 90
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 42,
+                    "endOffset": 197
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 484,
+                        "endColumn": 42,
+                        "endOffset": 522
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 202,
+                    "endColumn": 35,
+                    "endOffset": 233
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 527,
+                        "endColumn": 35,
+                        "endOffset": 558
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 238,
+                    "endColumn": 117,
+                    "endOffset": 351
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 275,
+                        "endColumn": 117,
+                        "endOffset": 388
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 356,
+                    "endColumn": 77,
+                    "endOffset": 429
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 77,
+                        "endOffset": 270
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 434,
+                    "endColumn": 58,
+                    "endOffset": 488
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 95,
+                        "endColumn": 58,
+                        "endOffset": 149
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 493,
+                    "endColumn": 60,
+                    "endOffset": 549
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 136,
+                        "endColumn": 60,
+                        "endOffset": 192
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 554,
+                    "endColumn": 90,
+                    "endOffset": 640
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\multiimagechooser_strings_en.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 393,
+                        "endColumn": 90,
+                        "endOffset": 479
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 645,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 714
+                },
+                "from": {
+                    "file": "E:\\skkkkkk-192\\platforms\\android\\res\\values\\themes.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 3,
+                        "endColumn": 12,
+                        "endOffset": 124
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+/**
+ * Created by WG003 on 2018/8/30.
+ */
+angular.module('starter.WxBills', [])
+  .factory('wxBills', function($http,$rootScope,$q,userService) {
+    var paramA = {};
+    //页码
+    paramA.curPage = 0;
+    paramA.hasmore = false;
+    paramA.pageSize=10;
+
+    var paramB = {};
+    //页码
+    paramB.curPage = 0;
+    paramB.hasmore = false;
+    paramB.pageSize=10;
+
+    var paramC = {};
+    //页码
+    paramC.curPage = 0;
+    paramC.hasmore = false;
+    paramC.pageSize=10;
+
+    return {
+      getState0:function (type) {
+        var q=$q.defer();
+        var param={};
+        if(type==0){
+          param=paramA;
+        }
+        if(type==1){
+          param=paramB;
+        }
+        if(type==2){
+          param=paramC;
+        }
+        var p = {
+          userName: $rootScope.userName,
+          type:type,
+          curPage:param.curPage,
+          pageSize:param.pageSize
+        };
+        $http.post(userService(0).address+"WeixiuService.asmx/AfterSRepair_P",p).success(function (response, status, headers, config) {
+          q.resolve(response);
+        }).error(function (response, status, headers, config) {
+          q.reject(response);
+        });
+        return q.promise;
+      },
+      param:param
+    };
+  });
+
+

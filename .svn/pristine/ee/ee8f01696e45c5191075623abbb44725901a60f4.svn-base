@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "E:\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "E:\\AppSQ\\platforms\\android\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "E:\\AppSQ\\AppSQ_S1\\AppSQ\\platforms\\android\\res\\drawable-ldpi\\icon.png"
+    },
+    {
+        "merged": "E:\\AppSQ\\AppSQ\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\icon.png",
+        "source": "E:\\AppSQ\\AppSQ\\platforms\\android\\res\\drawable-ldpi\\icon.png"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\skkkkkk\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "E:\\skkkkkk\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\skkkkkk\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "E:\\skkkkkk\\platforms\\android\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "E:\\skkkkkk-121\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "E:\\skkkkkk-121\\platforms\\android\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\skkkkkk\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\file_paths.xml",
+        "source": "E:\\skkkkkk\\platforms\\android\\res\\xml\\file_paths.xml"
+    },
+    {
+        "merged": "E:\\skkkkkk-121\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\config.xml",
+        "source": "E:\\skkkkkk-121\\platforms\\android\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "E:\\skkkkkk-121\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\xml\\provider_paths.xml",
+        "source": "E:\\skkkkkk-121\\platforms\\android\\res\\xml\\provider_paths.xml"
+    }
+]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="firstApp">
+<head>
+  <meta charset="utf-8">
+  <title>ionic css first exercise</title>
+  <link href="lib/ionic/css/ionic.min.css" rel="stylesheet">
+  <script src="http://www.runoob.com/static/ionic/js/ionic.bundle.min.js"></script>
+</head>
+<body ng-controller="firstCtrl">
+<ion-header-bar  class="bar-positive">
+  <div class="buttons">
+    <button class="button" ng-click="doSomething()">返回</button>
+  </div>
+  <h1 class="title">练习</h1>
+  <div class="buttons">
+    <button class="button button-assertive" >菜单</button>
+  </div>
+</ion-header-bar>
+<ion-content >
+  <ion-refresher on-refresh="load_more();"  pulling-text="放开就刻意刷新"
+                 spinner="android" >
+  </ion-refresher>
+  <h2>spinner 的样式：</h2>
+  <p>
+    <ion-spinner icon="android" ></ion-spinner>
+    <ion-spinner icon="ios"></ion-spinner>
+    <ion-spinner icon="ios-small"></ion-spinner>
+    <ion-spinner icon="bubbles" class="spinner-balanced"></ion-spinner>
+    <ion-spinner icon="circles" class="spinner-energized"></ion-spinner>
+  </p>
+  <p>
+    <ion-spinner icon="crescent" class="spinner-royal"></ion-spinner>
+    <ion-spinner icon="dots" class="spinner-dark"></ion-spinner>
+    <ion-spinner icon="lines" class="spinner-calm"></ion-spinner>
+    <ion-spinner icon="ripple" class="spinner-assertive"></ion-spinner>
+    <ion-spinner icon="spiral"></ion-spinner>
+  </p>
+  <ul class="list">
+    <li class="item"  ng-repeat="item in items">{{item}}</li>
+  </ul>
+  <ion-infinite-scroll on-infinite="onLoadLess()" distance="10%" immediate-check="true" icon="ion-load-a">
+
+  </ion-infinite-scroll>
+</ion-content>
+</body>
+</html>
+<script>
+  angular.module("firstApp",["ionic"])
+    .controller("firstCtrl",["$scope","$ionicScrollDelegate",
+      function($scope,$ionicScollDelegate)
+      {
+        var base=100;
+        $scope.items =[];
+        $scope.load_more = function()
+        {
+          console.log("load_more");
+          for (var i = 0; i < 2; i++, base++)
+          {
+            $scope.items.push(["item ", base].join(""));
+            $scope.$broadcast("scroll.refreshComplete");
+          }
+        }
+
+        $scope.onLoadLess=function(){
+          console.log("onLoadLess");
+          for (var i = 0; i < 2; i++, base++)
+          {
+            $scope.items.push(["item ", "liuyonghong"+base].join(""));
+            $scope.$broadcast("scroll.infiniteScrollComplete");
+          }
+        }
+      }]);
+</script>

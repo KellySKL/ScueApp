@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\loading_icon.png",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\drawable-hdpi\\loading_icon.png"
+    },
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_remove.png",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\drawable-hdpi\\ic_action_remove.png"
+    },
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\image_bg.9.png",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\drawable-hdpi\\image_bg.9.png"
+    },
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_previous_item.png",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\drawable-hdpi\\ic_action_previous_item.png"
+    },
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "E:\\skkkkkk-192\\platforms\\android\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_next_item.png",
+        "source": "E:\\skkkkkk-192\\platforms\\android\\res\\drawable-hdpi\\ic_action_next_item.png"
+    }
+]

@@ -1,0 +1,46 @@
+
+<ion-view view-title="{{item.code}}">
+  <ion-nav-bar class="bar-positive">
+    <ion-nav-back-button ng-click="back()">
+    </ion-nav-back-button>
+  </ion-nav-bar>
+
+  <ion-content class="padding">
+    <p style="font-size: 16px" ng-hide="myBill">
+      消息接受时间： {{item.rq1}}
+    </p>
+    <p style="font-size: 16px" ng-hide="myComplete">
+      消息完成时间： {{item.rq2}}
+    </p>
+    <p style="font-size: 16px">
+      拜访时间： {{item.date}}
+    </p>
+    <p style="font-size: 16px">
+      拜访方式： {{item.visittype}}
+    </p>
+    <p style="font-size: 16px">
+      拜访客户：  {{item.client}}
+    </p>
+    <p style="font-size: 16px">
+      联系人：{{item.hisname}}
+    </p>
+    <p style="font-size: 16px">
+      联系方式：{{item.hisphone}}
+    </p>
+    <p style="font-size: 16px">
+      上次回访内容：{{item.content}}
+    </p>
+    <p style="font-size: 16px">
+      本次注意事项：{{item.notice}}
+    </p>
+    <p style="font-size: 16px" ng-hide="myComplete">
+      本次回访内容：{{item.zf1}}
+    </p>
+    <div class="padding" ng-hide="myVar">
+      <button class="button button-block button-positive" ng-click="accpect()">接受</button>
+    </div>
+    <div class="padding" ng-hide="myBill">
+      <button class="button button-block button-positive" ng-click="write(item)">填写拜访单</button>
+    </div>
+  </ion-content>
+</ion-view>

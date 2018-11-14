@@ -1,0 +1,56 @@
+<ion-header-bar class="bar-positive">
+  <h1 class="title">消息</h1>
+</ion-header-bar>
+<!--<div class="tabs-striped tabs-top tabs-icon-left tabs-background-positive tabs-color-light">-->
+  <!--<div class="tabs">-->
+    <!--<a class="tab-item active" ng-click="shown1()">-->
+      <!--未处理-->
+    <!--</a>-->
+    <!--<a class="tab-item" ng-click="shown2()">-->
+      <!--已接收-->
+    <!--</a>-->
+  <!--</div>-->
+<!--</div>-->
+<ion-view view-title="消息接收">
+  <ion-content class="padding">
+    <!--style="margin-top: 45px"-->
+    <div id="div1">
+    <ion-list>
+      <ion-item ng-repeat="item in data" type="item-text-wrap" style="margin:8px;border:1px solid #317ff2;border-radius: 10px;">
+        <!--<div style="border:1px solid #317ff2;border-radius: 10px;">-->
+        <div style="height: 25px;width: 100%;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;margin: 0px;">
+          <div style="float: left;height:100%;width:auto;text-align:center">
+            {{item.CLIENT}}
+          </div>
+          <div style="float: right;height:100%;width:auto;text-align:center">
+            <p style="color: #8e979a">{{item.BILLTYPE}}</p>
+          </div>
+        </div>
+        <div style="height: 25px;width: 100%;border-radius: 10px;margin-top: 5px; font-size: 14px;color:#8e979a;word-wrap: break-word;">
+            机床码：{{item.ZF1}}
+        </div>
+        <ion-option-button class="button-assertive" ng-click="accept(item)">
+          接收
+        </ion-option-button>
+      </ion-item>
+
+      <!--<ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="item in data" type="item-text-wrap">-->
+       <!--{{item.BILLMAN}}-->
+        <!--{{item.CLIENT}}-->
+        <!--{{item.BILLTYPE}}{{item.ZF1}}-->
+
+        <!--&lt;!&ndash;<img ng-src="{{chat.face}}">&ndash;&gt;-->
+        <!--&lt;!&ndash;<h2>{{chat.name}}</h2>&ndash;&gt;-->
+        <!--&lt;!&ndash;<p>{{chat.lastText}}</p>&ndash;&gt;-->
+        <!--&lt;!&ndash;<i class="icon ion-chevron-right icon-accessory"></i>&ndash;&gt;-->
+        <!--<ion-option-button class="button-assertive" ng-click="accpet(item)">-->
+          <!--Delete-->
+        <!--</ion-option-button>-->
+      <!--</ion-item>-->
+    </ion-list>
+    </div>
+    <!--<div id="div2">-->
+      <!--<p> 第二个DIV！</p>-->
+    <!--</div>-->
+  </ion-content>
+</ion-view>
